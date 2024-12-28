@@ -3,11 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>سایت ساده من</title>
+  <title>شبکه‌های مامان</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: linear-gradient(to bottom, #ffefba, #ffffff);
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-top: 50px;
+      color: #ff4500;
+    }
+    .button-container {
+      margin-top: 50px;
+    }
+    .button {
+      display: inline-block;
+      font-size: 1.5rem;
+      text-decoration: none;
+      color: white;
+      background-color: #ff6347;
+      padding: 15px 30px;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .button:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+    }
+    .button:active {
+      transform: scale(0.95);
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+  </style>
 </head>
-<body style="text-align: center; margin-top: 50px;">
-  <h1>سایت ساده من</h1>
-  <button onclick="alert('دکمه اول کلیک شد!')">دکمه اول</button>
-  <button onclick="alert('دکمه دوم کلیک شد!')">دکمه دوم</button>
+<body>
+  <h1>شبکه‌های مامان</h1>
+  <div class="button-container">
+    <a href="https://www.showturk.com.tr/canli-yayin/showturk" target="_blank" class="button">ShowTv</a>
+    <a href="https://www.nowtv.com.tr/canli-yayin" target="_blank" class="button">FoxTv</a>
+  </div>
 </body>
 </html>
